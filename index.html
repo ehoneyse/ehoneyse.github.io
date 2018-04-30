@@ -2,10 +2,24 @@
   <head>
     <title>Welcome to my website!</title>
     <link href="bootstrap.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .fa-flag:hover {
+        color: #D9230F;
+      }
+
+      .divider {
+        width:30px;
+        height:auto;
+        display:inline-block;
+      }
+    </style>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Evan Honeysett</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,13 +27,10 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -31,6 +42,29 @@
         </form>
       </div>
     </nav>
+
+    <div class="jumbotron ">
+      <h1 class="display-3 text-center">Welcome!</h1>
+      <p class="lead text-center">My name is Evan Honeysett. I am a Computer Science Student at Purdue University.</p>
+      <hr class="my-4">
+      <p class="text-center">Want to know more about me and my projects?</p>
+      <p class="lead text-center">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+
+      <p class="text-center">Or connect with my on one of my social platforms...</p>
+
+      <ul class="text-center">
+        <a href="https://www.github.com/ehoneyse" target="_blank"><i class="fa fa-flag fa-5x fa-github-alt"> </i></a>
+        <li class="divider"> </li>
+        <a href="https://www.facebook.com/evan.honeysett.7" target="_blank"><li class="fa fa-flag fa-5x fa-facebook"> </li></a>
+        <li class="divider"> </li>
+        <a href="https://twitter.com/featuredevan" target="_blank"><li class="fa fa-flag fa-5x fa-twitter"> </li></a>
+        <li class="divider"> </li>
+        <a href="https://www.linkedin.com/in/ehoneyse/" target="_blank"><li class="fa fa-flag fa-5x fa-linkedin"></li></a>
+      </ul>
+    </div>
+
   </body>
 </html>
 
